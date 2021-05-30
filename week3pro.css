@@ -1,0 +1,45 @@
+body{
+    background-color:#333 ;
+}
+header{
+    text-align: center;
+    background-color:#333;
+    padding: 15px 10px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.item{
+    background-color: rgb(113, 168, 240);
+    font-size: bold;
+    padding: 20px 30px;
+    font-weight: bold;
+}
+.item h3{
+    text-align: center;
+    color: whitesmoke;
+}
+input[type=text]{
+    width: 80%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=submit]{
+background-color: rgb(150, 211, 230);
+color: whitesmoke;
+border: none;
+padding:15px 20px;
+}
+.lists{
+    padding: 20px 30px;
+    color: white;
+}
+.removeButton{
+    display: flex;
+    flex-direction: flex-end;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+
+}
